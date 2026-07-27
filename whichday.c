@@ -37,5 +37,6 @@ int main() {
     }
 
     printf("Seçtiğiniz gün %s", day);
+    
 
 }
