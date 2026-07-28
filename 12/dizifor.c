@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int myArray[] = {25, 50, 75, 100};
-    int i;
+    int myArray[10] = {25, 50, 75, 100};
+    int index;
 
-    for (i=0; i<4; i++) {
-        printf("%d  |  ", myArray[i]);
+    for (index=0; index<4; index++) {
+        printf("%d  |  ", myArray[index]);
     }
+    
 
     return 0;
 
