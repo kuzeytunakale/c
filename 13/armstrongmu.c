@@ -8,7 +8,7 @@ int main()
 {
     int number;
 
-    printf("Lütmen bir sayı giriniz: ");
+    printf("Lütfen bir sayı giriniz: ");
     scanf("%d", &number);
 
     if (IsNumberArmstrong(number))
@@ -31,7 +31,7 @@ bool IsNumberArmstrong(int number)
 
     int sum, last_digit, numberofdigit, original_number;
     sum = 0;
-    numberofdigit = (int) log10(number) + 1;
+    numberofdigit = (int) round(log10(number) + 1);
     original_number = number;
 
     while(number > 0)
