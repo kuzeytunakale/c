@@ -1,0 +1,5 @@
+olay şu:
+zaten auto normal varayılan tanımlama,
+exern başka bir .c dosyasındaki bir değeri kullanabilir (birlikte derlemelerde),
+statik başka dosyalar tarafından erişilemez hale getirir (birlikte derlemelerde),
+register cpu nun aşırı hızlı belleğine saklar.
